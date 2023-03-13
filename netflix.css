@@ -1,0 +1,23 @@
+/* Normalize css*/
+html,body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1242px;
+}
+
+/* Header css*/
+header{
+    background-color: transparent;
+}
+
+.left-container,.right-container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;   
+}
